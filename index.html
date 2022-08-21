@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+    <link rel="stylesheet" href="index.css">
+    <title>HCBJS.PROJECT</title>
+</head>
+<body>
+
+    <header> 
+        <nav class="navbar  navbar-expand-lg navbar-light ">
+            <div class="container">
+              <a class="navbar-brand" href="#">Navbar</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">About</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      DEMO OF WORK
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item" href="#">DEVELOPER</a></li>
+                      <li><a class="dropdown-item" href="#">DESIGNER</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">FREELANCER</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">CONTACT</a>
+                  </li>
+                </ul>
+                <form class="d-flex">
+                    
+                    <button class="btn " type="submit">Search</button>
+                  </form>
+              </div>
+            </div>
+          </nav>
+    </header>
+
+    <!-- CAROUSEL BOOTSTRAP SLIDER 1 -->
+    <!--!note: ei bave Bootstrap carousel use korte hole apnake first bootstrap e duke tar link nite and oi ekoi bootstrap er carousel use korte hobe -->
+    <!--! than animate.css duke tar modde thaka class gula h tag er modde use kortlei hoye jabe -->
+    <!--! thacra amar ei pagee jebabe link gula use korsi sheita dekhe nile o hove  -->
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="faysalfre.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5 class="animate__heartBeat" style=" animation-duration: 2s;">HELLO WORLD</h5>
+              <h1 class="animate__backInDown" style=" animation-duration: 2s;">THIS IS FAYSAL ARHAM</h1>
+              <h3 class="animate__backInLeft" style=" animation-duration: 2s;">A FULL STACK WEB DEVELOPER</h3>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="faysal111.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+                <h5 class="animate__backInRight" style=" animation-duration: 2s;">HELLO WORLD</h5>
+                <h1 class="animate__backInUp" style=" animation-duration: 2s;">THIS IS FAYSAL ARHAM</h1>
+                <h3 class="animate__swing" style=" animation-duration: 2s;">A FULL STACK WEB DEVELOPER</h3>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="faysal2.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+                <h5 class="animate__animated animate__bounceInRight" style="animation-delay:1s">HELLO WORLD</h5>
+                <h1 class="animate__animated animate__bounceInLeft" style="animation-delay:2s">THIS IS FAYSAL ARHAM</h1>
+                <h3 class="animate__animated animate__bounceInRight" style="animation-delay:3s">A FULL STACK WEB DEVELOPER</h3>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    <!-- CAROUSEL BOOTSTRAP SLIDER 1 ENDS -->
+
+   <!--  javascript parctise section part2 start -->
+      <section id="java" class="fun"> 
+        <h1>Project number- <span>01</span></h1>
+      <h1 id="demo">How create circle progress bar using by html,css,bootstrap and javaScript.</h1>
+        <div class="container"> 
+           <div class="row text-center"> 
+              <div class="col-lg-4 col-sm-6 "> 
+                <div class="skill-box mamu1"> 
+                  <div class="skill"> 
+                     <div class="outer"> 
+                       <div class="inner"> 
+                          <div class="number"data-num="70" > 
+                           
+                          </div>
+                       </div>
+                     </div>
+                         
+               <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="160px" height="160px">
+                <defs>
+                   <linearGradient id="GradientColor">
+                      <stop offset="0%" stop-color="#e91e63" />
+                      <stop offset="100%" stop-color="#673ab7" />
+                   </linearGradient>
+                </defs>
+                <circle cx="80" cy="80" r="70" stroke-linecap="round" />
+              </svg>
+               
+                  </div>
+               </div>
+              </div>
+
+
+              <div class="col-lg-4 col-sm-6 "> 
+                <div class="skill-box mamu2"> 
+                  <div class="skill"> 
+                     <div class="outer"> 
+                       <div class="inner"> 
+                          <div class="number" data-num="60" > 
+                           
+                          </div>
+                       </div>
+                     </div>
+                         
+               <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="160px" height="160px">
+                <defs>
+                   <linearGradient id="GradientColor">
+                      <stop offset="0%" stop-color="#e91e63" />
+                      <stop offset="100%" stop-color="#673ab7" />
+                   </linearGradient>
+                </defs>
+                <circle cx="80" cy="80" r="70" stroke-linecap="round" />
+        </svg>
+               
+                  </div>
+               </div>
+              </div>
+
+
+              <div class="col-lg-4 col-sm-6 "> 
+                <div class="skill-box mamu3"> 
+                  <div class="skill"> 
+                     <div class="outer"> 
+                       <div class="inner"> 
+                          <div class="number" data-num="50" > 
+                         
+                          </div>
+                       </div>
+                     </div>
+                       
+                         <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="160px" height="160px">
+                          <defs>
+                             <linearGradient id="GradientColor">
+                                <stop offset="0%" stop-color="#e91e63" />
+                                <stop offset="100%" stop-color="#673ab7" />
+                             </linearGradient>
+                          </defs>
+                          <circle cx="80" cy="80" r="70" stroke-linecap="round" />
+                  </svg>
+              
+                  </div>
+               </div>
+              </div>
+           </div>
+        </div>
+     </section>
+
+
+<!--!section for image slider by javaScript start   -->
+
+<section id="jsslider" class="jsslider"> 
+  <h1>Project number- <span>02</span></h1>
+   <h1 id="sliderjs"> 
+    How to create auto-slider using by html,css,bootstrap and javaScript.
+   </h1>
+  <div class="container"> 
+  
+    <div class="row"> 
+       <img name="slide" width="400px" height="500px">
+    </div>
+  </div>
+</section>
+<!--!section for image slider by javaScript end   -->
+
+<!-- AGAIN JS-SLIDER TWO -->
+<section id="jsslidertwo"> 
+  <h1>Project number- <span>03</span></h1>
+  <h1 class="jssstwo"> How to create Button-slider using by html,css,bootstrap and javaScript.</h1>
+  <div class="container-fluid"> 
+    <div class="row my-CON sona">
+      <div class="myS fad">
+        <div class="numbertext">1 / 3</div>
+        <img src="slide-1.jpg" >
+        <div class="text">Caption Text</div>
+      </div>
+
+      <div class="myS fad">
+        <div class="numbertext">1 / 3</div>
+        <img src="slide-2.jpg" >
+        <div class="text">Caption Text</div>
+      </div>
+
+      <div class="myS fad">
+        <div class="numbertext">1 / 3</div>
+        <img src="slide-3.jpg" >
+        <div class="text">Caption Text</div>
+      </div>
+      
+      <a class="prev" onclick="plusSlides(-1)">❮</a>
+      <a class="next" onclick="plusSlides(1)">❯</a>
+      
+
+      </div>
+
+      <br>
+
+      <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span> 
+        <span class="dot" onclick="currentSlide(2)"></span> 
+        <span class="dot" onclick="currentSlide(3)"></span> 
+      </div>
+  
+  </div>
+ 
+      
+    </div>
+  </div>
+</section>
+<!-- JS-SLIDER ENDS -->
+
+<!-- html,css,bootstrap,javascript auto-slider start -->
+<section id="autoslider" class="autoslider">
+  <h1>Project number- <span>04</span></h1>
+  <h1>How to create button slider using by html,css,bootstrap and javaScript.</h1>
+  <div class="container kaku"> 
+    <div class=" row my-con-box fada">
+       <div class="slid-box1 fada">
+         <img src="slide-1.jpg" alt="haha">
+         <div class="slidinbox"> 
+           <h1>Hello World</h1>
+           <h4>If you learn the code practise everyday.</h4>
+           <h6>Slide page one</h6>
+         </div>
+       </div> 
+
+       <div class="slid-box1 fada">
+        <img src="slide-2.jpg" alt="haha">
+        <div class="slidinbox"> 
+          <h1>Hello World</h1>
+          <h4>If you learn the code practise everyday.</h4>
+          <h6>Slide page one</h6>
+        </div>
+      </div> 
+
+      <div class="slid-box1 fada">
+        <img src="slide-3.jpg" alt="haha">
+        <div class="slidinbox"> 
+          <h1>Hello World</h1>
+          <h4>If you learn the code practise everyday.</h4>
+          <h6>Slide page one</h6>
+        </div>
+      </div>  -->
+
+      <a class=" arrow left" onclick="controller(-1)">❮</a>
+      <a class=" arrow right" onclick="controller(1)">❯</a>
+
+      
+      <div class="gulla">
+        <span class="dott" id="radio" onclick="currentSlide(1)"></span> 
+        <span class="dott" id="radio" onclick="currentSlide(2)"></span> 
+        <span class="dott" id="radio" onclick="currentSlide(3)"></span> 
+      </div>
+
+    </div>
+  </div>
+</section>
+ 
+<!-- html,css,bootstrap,javascript auto-slider ends -->
+
+
+     
+ 
+
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>    
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+<script src="index.js"></script>
+</body>
+</html>
